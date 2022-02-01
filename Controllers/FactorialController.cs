@@ -19,8 +19,8 @@ public class FactorialController : ControllerBase
     }
 
     /// <summary>
-    /// Calculates factorial of given value. The n value must be between 0 and 10. 
-    /// You have 5 free calculates :) Your promo code 9999.
+    /// Calculates factorial from given value. The n value must be between 0 and 10. 
+    /// You have 5 free calculates :) Your promo code is 9999.
     /// </summary>
     /// <param name="n"></param>
     [HttpGet(Name = "GetFactorial")]

@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "Factorial - error handling",
-        Description = "The exapmple solution for client error model",
+        Description = "The example of passing errors from Api",
         TermsOfService = new Uri("https://example.com/terms"),
     });
 
