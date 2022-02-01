@@ -1,6 +1,6 @@
 ﻿{
   "hello": "Hello there!",
   "validation-error-must-be-greater-or-equal-zero": "The value must be greater than or equal to zero.",
-  "no-funds-you-can-buy-more": "You have no funds left, we want more your money!!!",
+  "no-funds-please-pay": "You have no funds left, we want more your money!!!",
   "promo-code-ok": "Congratulations! Your promo code is valid!"
 }

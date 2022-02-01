@@ -47,7 +47,7 @@ public class FactorialController : ControllerBase
         if (_factorialService.Funds <= 0)
             return BadRequest(
                 new ClientError(Error.NO_FUNDS,
-                    _stringLocalizer.GetString("no-funds-you-can-buy-more"),
+                    _stringLocalizer.GetString("no-funds-please-pay"),
                     nameof(n)));
 
         return Ok(_factorialService.GetFactorial(n));
